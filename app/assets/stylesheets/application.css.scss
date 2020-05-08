@@ -31,6 +31,7 @@ h1, h2, h3 {
   background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+// Nav Style 
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
@@ -40,7 +41,19 @@ h1, h2, h3 {
     opacity: 0.75;
   }
 }
-// Nav Style 
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #7F7FD5;
+  }
+}
+
+
 .navbar {
   border: none;
 }
@@ -57,7 +70,3 @@ h1, h2, h3 {
   padding-top: 50px;
   padding-bottom: 100px;
 }
-
-// .fa-group {
-//   padding-right: 5px;
-// }
